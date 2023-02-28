@@ -1,0 +1,21 @@
+{
+    "name": "Benjamin Yambot",
+    "avatar": "https://z-p3-scontent.fpnh5-2.fna.fbcdn.net/v/t39.30808-1/326240752_1388605731878138_3344183054071660382_n.jpg?stp=dst-jpg_p240x240&_nc_cat=109&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=PJ_EIsvsTLcAX_6XGdA&_nc_ht=z-p3-scontent.fpnh5-2.fna&oh=00_AfBWJMX74iJkYZBq1uZS0UpNkF8XWXlgoec26f-0mlJZWg&oe=63FF3335",
+    "links":[
+        {
+            "title":"Facebook",
+            "href":"https://web.facebook.com/Benjamine.Lopez08",
+            "image":"https://cdn-icons-png.flaticon.com/512/5968/5968764.png"
+        },
+        {
+            "title":"Github",
+            "href":"https://github.com/benjaminlopezyambot",
+            "image":"https://cdn-icons-png.flaticon.com/512/25/25231.png"
+        },
+        {
+            "title":"LinkedIn",
+            "href":"https://ph.linkedin.com/in/benjamin-yambot-997086132",
+            "image":"https://cdn-icons-png.flaticon.com/512/174/174857.png" 
+        }
+    ]
+}

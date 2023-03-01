@@ -136,7 +136,7 @@ export default function Home() {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
       ></iframe>
-      <div className="flex items-center gap-4 mt-1 text-white">
+      <div className="flex items-center gap-4 mt-1 mb-5 text-white">
         {data.socials.map((social) => (
           <a
             aria-label={`${social.title} link`}

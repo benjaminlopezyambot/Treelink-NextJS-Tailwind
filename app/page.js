@@ -106,6 +106,7 @@ function LinkCard({ href, title, image }) {
 export default function Home() {
   return (
     <div className="flex mx-auto flex-col items-center px-8 w-full justify-center mt-16">
+      
       <Image
         className="rounded-full"
         alt={data.name}
@@ -126,6 +127,12 @@ export default function Home() {
       {data.links.map((item) => (
         <LinkCard key={item.href} {...item} />
       ))}
+      
+      {/* <div class="relative w-full -z-10 ">
+        <div class="absolute -top-8 right-7 w-40 h-40 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-50 animate-blob animation-delay-4000"></div>
+        <div class="absolute -bottom-20 -right-50 w-72 h-72 bg-grey-500 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+       <div class="absolute -bottom-8 left-30 w-72 h-72 bg-blue-700 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+      </div> */}
       <iframe
         className=" mt-5 max-w-2xl"
         src="https://open.spotify.com/embed/track/1eW8tAhOhiP9H9bHEAJTgG?utm_source=generator"
@@ -136,6 +143,7 @@ export default function Home() {
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         loading="lazy"
       ></iframe>
+
       <div className="flex items-center gap-4 mt-1 mb-5 text-white">
         {data.socials.map((social) => (
           <a
